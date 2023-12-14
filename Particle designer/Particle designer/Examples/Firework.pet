@@ -1,0 +1,17 @@
+{
+  "Primitive": "Line",
+  "ColorStart": "#FFFF0000",
+  "ColorEnd": "#FFFFFF00",
+  "ScaleStart": "5,1",
+  "ScaleEnd": "0,1",
+  "IsRotated": true,
+  "Position": "768,281.61",
+  "Velocity": "200,300",
+  "Acceleration": "0,0",
+  "Direction": "0,360",
+  "Gravity": 150.0,
+  "GravityDirection": 90.0,
+  "EmissionRate": "60,120",
+  "BurstRate": "5,10",
+  "Lifespan": 1.0
+}

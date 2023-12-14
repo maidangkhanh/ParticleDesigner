@@ -1,0 +1,17 @@
+{
+  "Primitive": "Square",
+  "ColorStart": "#FFFFFF00",
+  "ColorEnd": "#FFFF0000",
+  "ScaleStart": "3,0.5",
+  "ScaleEnd": "1,0",
+  "IsRotated": true,
+  "Position": "392.8,212.41",
+  "Velocity": "200,300",
+  "Acceleration": "-50,-100",
+  "Direction": "0,360",
+  "Gravity": 200.0,
+  "GravityDirection": 90.0,
+  "EmissionRate": "60,120",
+  "BurstRate": "5,10",
+  "Lifespan": 1.0
+}

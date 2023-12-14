@@ -1,0 +1,17 @@
+{
+  "Primitive": "Circle",
+  "ColorStart": "#FFE0FFFF",
+  "ColorEnd": "#FF0000FF",
+  "ScaleStart": "1,1",
+  "ScaleEnd": "0.1,0.1",
+  "IsRotated": true,
+  "Position": "768,301.61",
+  "Velocity": "200,300",
+  "Acceleration": "0,0",
+  "Direction": "0,360",
+  "Gravity": 0.0,
+  "GravityDirection": 0.0,
+  "EmissionRate": "60,120",
+  "BurstRate": "5,10",
+  "Lifespan": 2.0
+}

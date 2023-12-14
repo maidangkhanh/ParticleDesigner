@@ -1,0 +1,17 @@
+{
+  "Primitive": "Hexagon",
+  "ColorStart": "#FFEFA089",
+  "ColorEnd": "#FFFFE594",
+  "ScaleStart": "1,1",
+  "ScaleEnd": "3,3",
+  "IsRotated": true,
+  "Position": "768,301.61",
+  "Velocity": "300,400",
+  "Acceleration": "80,100",
+  "Direction": "-20,20",
+  "Gravity": 0.0,
+  "GravityDirection": 0.0,
+  "EmissionRate": "70,80",
+  "BurstRate": "5,7",
+  "Lifespan": 1.5
+}

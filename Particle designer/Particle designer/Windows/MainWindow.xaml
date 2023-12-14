@@ -1,0 +1,51 @@
+﻿<Window xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+		xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+		xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+		xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+		xmlns:local="clr-namespace:Particle_designer"
+		xmlns:SharpGL="clr-namespace:SharpGL;assembly=SharpGL"
+		xmlns:WPF="clr-namespace:SharpGL.WPF;assembly=SharpGL.WPF"
+		xmlns:uc="clr-namespace:Particle_designer"
+		x:Class="Particle_designer.MainWindow"
+		mc:Ignorable="d"
+		Title="Particle designer"
+		MinHeight="700"
+		MinWidth="800"
+		Width="800"
+		Height="700"
+		Topmost="False"
+		WindowStartupLocation="CenterScreen">
+
+	<Window.CommandBindings>
+		<CommandBinding Command="ApplicationCommands.Save"
+						CanExecute="AllowSavingAndLoading"
+						Executed="SaveEmitterStream" />
+		<CommandBinding Command="ApplicationCommands.Open"
+						CanExecute="AllowSavingAndLoading"
+						Executed="LoadEmitterStream" />
+	</Window.CommandBindings>
+
+	<DockPanel>
+
+		<!--Menubar-->
+		<Menu DockPanel.Dock="Top">
+			<MenuItem Header="Save"
+					  Command="ApplicationCommands.Save" />
+			<MenuItem Header="Load"
+					  Command="ApplicationCommands.Open" />
+			<MenuItem Header="Toggle particle emitter stream tab"
+					  Click="ToggleParticleEmitterStreamTab" />
+		</Menu>
+
+		<!--EmmiterControl-->
+		<uc:EmitterControl x:Name="emitter_control"
+						   DockPanel.Dock="Bottom" />
+
+		<!--OpenGL-->
+		<WPF:OpenGLControl x:Name="gl_control"
+						   OpenGLInitialized="gl_control_OpenGLInitialized"
+						   Resized="gl_control_Resized"
+						   OpenGLDraw="gl_control_OpenGLDraw" />
+
+	</DockPanel>
+</Window>

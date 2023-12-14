@@ -1,0 +1,21 @@
+{
+  "Primitive": "Circle",
+  "ColorStart": "#FFF4F357",
+  "ColorEnd": "#FFFF008E",
+  "ScaleStart": "0.1,0.1",
+  "ScaleEnd": "20,1",
+  "IsRotated": true,
+  "Position": "392,211.71",
+  "Velocity": "50,60",
+  "Acceleration": "0,0",
+  "Direction": "0,360",
+  "Gravity": 100.0,
+  "GravityDirection": 315.0,
+  "EmissionRate": "60,100",
+  "BurstRate": "30,50",
+  "Lifespan": 1.5,
+  "IsCrossOn": true,
+  "TimePass": 80.599999999997991,
+  "TimeNext": 28.403106099579471,
+  "_is_enable": true
+}
